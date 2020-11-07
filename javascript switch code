@@ -11,22 +11,13 @@
      var a = parseInt(prompt("enter number"));
      var op= prompt("use operator")
      var b = parseInt(prompt("enter second number"));
-     //switch(op){
-        // case "+":alert(first_digit+second_digit)
-         //case "-":alert(first_digit-second_digit)
-        // case "*":alert(first_digit*second_digit)
-        // case "%":alert(first_digit%second_digit)
-
-        if (op=== "+"){
-             a+b
-        }
-                
-           
+     switch(op){
+        case "+":alert(first_digit+second_digit)
+        case "-":alert(first_digit-second_digit)
+        case "*":alert(first_digit*second_digit)
+        case "%":alert(first_digit%second_digit)
+      }
     
-
-    
- </script>
-    
-    
+ </script>       
 </body>
 </html>
